@@ -1,10 +1,10 @@
 package ru.geekbrains.Lesson6;
 
 abstract class Animal {
-    private String name;
-    private int MaxRunLength;
-    private int MaxSwimLength;
-    private double MaxJumpHeight;
+    private final String name;
+    private final int MaxRunLength;
+    private final int MaxSwimLength;
+    private final double MaxJumpHeight;
 
 
 
